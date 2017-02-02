@@ -15,17 +15,14 @@
     </head>
     <body>
         <nav class="light-blue lighten-1" role="navigation">
-            <div class="nav-wrapper container"><a id="logo-container" href="<?php echo base_url(); ?>" class="brand-logo">Logo</a>
+            <div class="nav-wrapper container"><a id="logo-container" href="" class="brand-logo">Logo</a>
                 <ul class="right hide-on-med-and-down">
-                                <li><a href="<?php echo base_url("estate"); ?>">Anasayfa</a></li>
-                <?php if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) { ?>
-                <li><a href="<?php echo base_url("estate/#Hakkimizda"); ?>">Hakkımızda</a></li>
-				<li><a href="<?php echo base_url("estate/#Iletisim"); ?>">İletişim</a></li>
-                <li><a href="<?php echo base_url("user/logout"); ?>">Çıkış Yap</a></li>
-                <?php } else {?>
-                    <li><a href="<?php echo base_url("user/login"); ?>">Giriş Yap</a></li>
-                    <li><a href="<?php echo base_url("user/register"); ?>">Üye Ol</a></li>
-                <?php } ?>
+                <li><a href="">Anasayfa</a></li>
+                <li><a href="">Hakkımızda</a></li>
+				<li><a href="">İletişim</a></li>
+                <li><a href="">Çıkış Yap</a></li>
+                    <li><a href="">Giriş Yap</a></li>
+                    <li><a href="">Üye Ol</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
                     <li><a href="#">Start Travel Ad</a></li>
